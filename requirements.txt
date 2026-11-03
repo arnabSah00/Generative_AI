@@ -1,0 +1,6 @@
+##langchain framework requirements
+langchain
+langchain-google-genai
+
+
+python-dotenv
