@@ -1,0 +1,9 @@
+Challenges:
+1. Cost Management ---> Solve By provider.
+2. Orchestration ---> Solve By LLM (Make the Pipeline).
+
+
+## FrameWorks Like LangChain:
+LlamaIndex
+Haystack
+
