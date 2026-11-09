@@ -4,3 +4,7 @@ langchain-google-genai
 
 ##
 python-dotenv
+
+##machine Learning Utilities
+numpy
+scikit-learn 

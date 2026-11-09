@@ -1,0 +1,16 @@
+Models::
+1.Language Models : Input: text :: Output : text,
+
+LLMs: General Purpous Models.
+Free-form text generation.
+general text corpora
+no in build memory.
+No role assign.
+
+Chat Models: Use for Conversational Models.
+Multi-turn Conversation.
+fine tune with chat dataset.
+Support structure conversesion history.
+Role assign.
+
+2.Embeddings Models: Input:text :: Output: Number. Helps in Semantic Search.
