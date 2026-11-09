@@ -7,3 +7,50 @@ Challenges:
 LlamaIndex
 Haystack
 
+Components of LangChain:
+1.Models
+Problems & Solutions::
+Early Stage : Every one try to Build a Chat bot.(NLP)
+problem::NLU(Natural Language Understanding) && Reply(Contextual text generation.)
+Solutions:-->Solved by -> LLM (It used full Internet data to train itself.)--> So it became of billions of parameter.(>100GB of size).
+Problem::it became of billions of parameter.(>100GB of size).--> not possible to Run in local system.
+Solution:---> Companies host LLMs in there own server and provide API.
+Problem:: Different Companies models api are use different syntex code to import and uses.
+Solution: ---> LangChain Create a centeralize Common Syntex for them.
+
+In LangChain You can Communicate With Two Type model ::
+1. Language Models
+2. Embeddings Models
+
+2.Prompts
+Prompts are input provided to LLM.
+LLM Output is Prompt Sensitive.--> Prompts are super Importents.
+Prompt Type: 
+Dynamic & Reusable prompt.---> Use Placeholder and Prompt Template.
+Role Base prompting.
+Few Shot prompting:: Give Some example of Input and Output structure to supervise your llm. In each query the  Few Shot prompt template go with user prompt to the LLM.
+
+3.Chains
+You can give the shape of Pipeline using the chain.
+Chains make one stage output as a input of another state.
+parallel chain.
+sequential chain.
+conditional chain.
+
+4.Memory
+ConversationBufferMemory
+ConversationBufferWindowMemory
+Summerizer-Based Memory
+
+6.Indexes
+1.documents loader
+2.text splitter
+3.vector database/storage
+4.Retriver
+
+7.Agents
+ChatBots+Super Power
+Reasoning Capabilities + Tools
+
+Reasoning::
+Chain of Thoughts.
